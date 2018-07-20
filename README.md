@@ -1,3 +1,3 @@
 # something_devops
 
-1.test jenkins
+1.test
