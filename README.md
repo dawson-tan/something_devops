@@ -4,4 +4,4 @@
 
 2.test AWS CodePipeline
 
-3.you spend too many times bro...
+3.bro you sure you ok?
