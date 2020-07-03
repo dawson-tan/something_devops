@@ -1,0 +1,20 @@
+---
+kind: pipeline
+type: docker
+
+clone:
+  disable: true
+
+steps:
+- name: greeting
+  image: php:fpm-alpine3.11
+  commands:
+  - echo hello world!
+
+trigger:
+  branch:
+  - master
+  event:
+  - push
+
+---
